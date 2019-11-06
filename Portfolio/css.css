@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1920px;
+    height:4465px;
+}
+
+.background{
+    width: 1920px;
+    height:4465px;
+    background-color: #F2E9DC;
+}
+
+.color{
+    background-color: #595959;
+    width: 1920px;
+    height: 110px;
+}
+
+.menu{
+    display:flex;
+    padding-top: 37px;
+    margin-left: 520px;
+    margin-right: 520px;
+    justify-content: space-between;
+}
+
+.menuname{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Gill Sans MT';
+    text-decoration: none;
+}
+
+.word{
+    font-size: 90px;
+    color: #595959;
+    font-family: 'Gill Sans MT';
+    margin-top: 73px;
+    display: flex;
+    justify-content: center;;
+}
+
+.line{
+    height: 0px;
+    border: 3px solid #595959;
+    border-radius: 3px;
+    margin-left: 816px;
+    margin-right: 816px;
+}
+
+.yiwang{
+    margin-top: 148px;
+    display: flex;
+    justify-content: center;
+}
+
+.head{
+    margin-top: 88px;
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    font-size: 60px;
+    color: #595959;
+    font-family: 'Gill Sans MT';
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.yvisyukiline{
+    height: 0px;
+    border: 3px solid #595959;
+    margin-left: 910px;
+    margin-right: 910px;
+    border-radius: 3px;
+}
+
+.art{
+    width: 1669px;
+    height: 539px;
+    margin-top: 60px;
+    margin-left: 121px;
+    margin-right: 121px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.coming{
+    margin-top: 91px;;
+    font-size: 45px;
+    color:#808F85;
+    font-family: 'Gill Sans MT';
+    display: flex;
+    justify-content: center;
+}
+
+.comingline{
+    margin-top: 95px;
+    height: 0px;
+    border: 3px solid #808F85;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+a:hover {
+    color: #91c499;
+}

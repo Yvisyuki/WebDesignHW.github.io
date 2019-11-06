@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1920px;
+    height:1080px;
+}
+
+.background{
+    width: 1920px;
+    height:1080px;
+    background-color: #F2E9DC;
+}
+
+.color{
+    background-color: #595959;
+    width: 1920px;
+    height: 110px;
+}
+
+.menu{
+    display:flex;
+    padding-top: 37px;
+    margin-left: 520px;
+    margin-right: 520px;
+    justify-content: space-between;
+}
+
+.menuname{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Gill Sans MT';
+    text-decoration: none;
+}
+
+.word{
+    font-size: 90px;
+    color: #595959;
+    font-family: 'Gill Sans MT';
+    margin-top: 73px;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    height: 0px;
+    border: 3px solid #595959;
+    margin-left: 782px;
+    margin-right: 782px;
+    border-radius: 3px;
+}
+
+.head{
+    margin-left: 93px;
+    position: absolute;
+    padding-top: 75px;
+    z-index: 2;
+    
+}
+
+.box{
+    position: absolute;
+    background-color:#FFFFFF;
+    width: 400px;
+    height: 412px;
+    border-radius: 26px;
+    opacity: 0.4;
+    margin-top: 185px;
+    z-index: 1;
+}
+
+.icon{
+    position: absolute;
+    padding-top: 334px;
+    padding-left: 40px;
+    width: 40px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.feihua{
+    width: 221px;
+    height: 221px;
+    position: absolute;
+    padding-top: 334px;
+    padding-left: 97px;
+    font-family: 'Gill Sans MT';
+    font: Condensed 30px/36px Gill Sans MT;
+    color:#808F85;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feihua>p{
+    margin:0;
+    padding:0;
+}
+
+.yvis{
+    margin-left: 160px;
+}
+
+.yuki{
+    margin-left: 750px;
+}
+
+.nws{
+    margin-left: 1340px;
+}
+
+.igfbname{
+    color: #808F85;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #91c499;
+}
+
+.bottom{
+    margin: 0;
+    padding:0;
+    margin-top: 739px;
+    width: 1920px;
+    height: 48px;
+    background-color: #595959;
+}
+
+.bottomword {
+    margin: 0;
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-top: 12px;
+    text-align: center;
+    
+}
